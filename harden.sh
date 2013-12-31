@@ -35,6 +35,6 @@ echo "[] TODO: Turning on Tor Browser AppArmor profile"
 echo "[] Running Tor Browser Launcher for the first time"
 torbrowser-launcher > /dev/null 2>&1 &
 
-echo "[] TODO: Add custom AppArmor profiles for Chrome, Thunderbird, Pidgin, Skype"
+echo "[] TODO: Add custom AppArmor profiles for Chrome, Thunderbird, Pidgin, LibreOffice, Jitsi, Skype, VLC"
 
 cd $PWD

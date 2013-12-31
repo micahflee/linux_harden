@@ -12,5 +12,5 @@ A script to run that hardens a newly set up desktop Linux computer. This script 
 ## To Do
 
 * Harden default browser profiles for Chrome and Firefox
-* Write AppArmor profiles for Chrome, Thunderbird, Pidgin, Skype
+* Write AppArmor profiles for Chrome, Thunderbird, Pidgin, LibreOffice, Jitsi, Skype, VLC
 
