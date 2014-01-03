@@ -1,0 +1,933 @@
+{
+   "apps": {
+      "shortcuts_have_been_created": true
+   },
+   "browser": {
+      "clear_lso_data_enabled": true,
+      "last_known_google_url": "https://www.google.com/",
+      "last_prompted_google_url": "https://www.google.com/",
+      "pepper_flash_settings_enabled": true,
+      "window_placement": {
+         "bottom": 855,
+         "left": 50,
+         "maximized": false,
+         "right": 1100,
+         "top": 0,
+         "work_area_bottom": 875,
+         "work_area_left": 0,
+         "work_area_right": 1600,
+         "work_area_top": 0
+      }
+   },
+   "cloud_print": {
+      "email": ""
+   },
+   "countryid_at_install": 21843,
+   "default_apps_install_state": 3,
+   "default_search_provider": {
+      "alternate_urls": [ "{google:baseURL}#q={searchTerms}", "{google:baseURL}search#q={searchTerms}", "{google:baseURL}webhp#q={searchTerms}" ],
+      "enabled": true,
+      "encodings": "UTF-8",
+      "icon_url": "http://www.google.com/favicon.ico",
+      "id": "2",
+      "image_url": "{google:baseURL}searchbyimage/upload",
+      "image_url_post_params": "encoded_image={google:imageThumbnail},image_url={google:imageURL},sbisrc={google:imageSearchSource},original_width={google:imageOriginalWidth},original_height={google:imageOriginalHeight}",
+      "instant_url": "{google:baseURL}webhp?sourceid=chrome-instant&{google:RLZ}{google:instantEnabledParameter}{google:instantExtendedEnabledParameter}{google:ntpIsThemedParameter}{google:omniboxStartMarginParameter}ie={inputEncoding}",
+      "instant_url_post_params": "",
+      "keyword": "google.com",
+      "name": "Google",
+      "new_tab_url": "{google:baseURL}_/chrome/newtab?{google:RLZ}{google:instantExtendedEnabledParameter}{google:ntpIsThemedParameter}ie={inputEncoding}",
+      "prepopulate_id": "1",
+      "search_terms_replacement_key": "espv",
+      "search_url": "{google:baseURL}search?q={searchTerms}&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:bookmarkBarPinned}{google:searchClient}{google:sourceId}{google:instantExtendedEnabledParameter}{google:omniboxStartMarginParameter}ie={inputEncoding}",
+      "search_url_post_params": "",
+      "suggest_url": "{google:baseSuggestURL}search?{google:searchFieldtrialParameter}client={google:suggestClient}&q={searchTerms}&{google:cursorPosition}{google:zeroPrefixUrl}{google:pageClassification}sugkey={google:suggestAPIKeyParameter}",
+      "suggest_url_post_params": ""
+   },
+   "dns_prefetching": {
+      "host_referral_list": [ 2, [ "https://2542116.fls.doubleclick.net/", [ "https://ad.yieldmanager.com/", 2.1673230869789073, "https://ads.yahoo.com/", 3.5123461587257334, "https://conversion-pixel.invitemedia.com/", 1.4948115511054936, "https://googleads.g.doubleclick.net/", 2.300919127415039, "https://segment-pixel.invitemedia.com/", 1.4948115511054936, "https://www.google.com/", 2.300919127415039, "https://www.googleadservices.com/", 2.393181189124079 ] ], [ "https://accounts.google.com/", [ "https://accounts.youtube.com/", 0.9620910178215336, "https://fonts.googleapis.com/", 0.9620910178215336, "https://oauth.googleusercontent.com/", 1.45771366336596, "https://ssl.gstatic.com/", 1.5932685749678541, "https://themes.googleusercontent.com/", 0.9620910178215336 ] ], [ "https://apis.google.com/", [ "https://apis.google.com/", 2.529573049612, "https://ssl.gstatic.com/", 2.529573049612 ] ], [ "https://chrome.google.com/", [ "https://chrome.google.com/", 5.738732888671998, "https://clients1.google.com/", 3.8132369852359993, "https://fls.doubleclick.net/", 2.529573049612, "https://lh3.googleusercontent.com/", 13.119800518509996, "https://lh4.googleusercontent.com/", 14.403464454133996, "https://lh5.googleusercontent.com/", 12.477968550697994, "https://lh6.googleusercontent.com/", 15.045296421945993, "https://ssl.google-analytics.com/", 4.134152969141999, "https://ssl.gstatic.com/", 2.850489033518, "https://www.google.com/", 3.8132369852359993 ] ], [ "https://www.google.com/", [ "https://accounts.google.com/", 0.41908684736306007, "https://apis.google.com/", 0.601765729546958, "https://developer.android.com/", 0.41908684736306007, "https://fonts.googleapis.com/", 0.41908684736306007, "https://ssl.google-analytics.com/", 0.4799798080910261, "https://ssl.gstatic.com/", 0.41908684736306007, "https://themes.googleusercontent.com/", 0.540872768818992, "https://www.google.com/", 0.9062305331867878, "https://www.youtube.com/", 0.41908684736306007 ] ], [ "https://www.youtube.com/", [ "https://i1.ytimg.com/", 2.529573049612, "https://s.ytimg.com/", 2.850489033518 ] ] ],
+      "startup_list": [ 1, "https://mxr.mozilla.org/" ]
+   },
+   "download": {
+      "directory_upgrade": true
+   },
+   "enable_do_not_track": true,
+   "extensions": {
+      "alerts": {
+         "initialized": true
+      },
+      "autoupdate": {
+         "next_check": "13033254595212242"
+      },
+      "chrome_url_overrides": {
+         "bookmarks": [ "chrome-extension://eemcgdkfndhakfknompkggombfjjjeno/main.html" ]
+      },
+      "known_disabled": [ "aohghmighlieiainnegkcijnfilokake" ],
+      "last_chrome_version": "31.0.1650.63",
+      "settings": {
+         "ahfgeienlihckogmohjhadlkjgocpleb": {
+            "active_permissions": {
+               "api": [ "management", "webstorePrivate" ]
+            },
+            "app_launcher_ordinal": "t",
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13033253709988981",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://chrome.google.com/webstore"
+                  },
+                  "urls": [ "https://chrome.google.com/webstore" ]
+               },
+               "description": "Chrome Web Store",
+               "icons": {
+                  "128": "webstore_icon_128.png",
+                  "16": "webstore_icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtl3tO0osjuzRsf6xtD2SKxPlTfuoy7AWoObysitBPvH5fE1NaAA1/2JkPWkVDhdLBWLaIBPYeXbzlHp3y4Vv/4XG+aN5qFE3z+1RU/NqkzVYHtIpVScf3DjTYtKVL66mzVGijSoAIwbFCC3LpGdaoe6Q1rSRDp76wR6jjFzsYwQIDAQAB",
+               "name": "Store",
+               "permissions": [ "webstorePrivate", "management" ],
+               "version": "0.2"
+            },
+            "page_ordinal": "n",
+            "path": "/opt/google/chrome/resources/web_store",
+            "was_installed_by_default": false
+         },
+         "aohghmighlieiainnegkcijnfilokake": {
+            "ack_external": true,
+            "app_launcher_ordinal": "w",
+            "creation_flags": 137,
+            "disable_reasons": 1,
+            "from_bookmark": false,
+            "from_webstore": true,
+            "has_declarative_rules": false,
+            "initial_keybindings_set": true,
+            "install_time": "13033253711868757",
+            "lastpingday": "13033209600521648",
+            "location": 1,
+            "manifest": {
+               "api_console_project_id": "619683526622",
+               "app": {
+                  "launch": {
+                     "local_path": "main.html"
+                  }
+               },
+               "container": "GOOGLE_DRIVE",
+               "current_locale": "en_US",
+               "default_locale": "en_US",
+               "description": "Create and edit documents ",
+               "icons": {
+                  "128": "icon_128.png",
+                  "16": "icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJhLK6fk/BWTEvJhywpk7jDe4A2r0bGXGOLZW4/AdBp3IiD9o9nx4YjLAtv0tIPxi7MvFd/GUUbQBwHT5wQWONJj1z/0Rc2qBkiJA0yqXh42p0snuA8dCfdlhOLsp7/XTMEwAVasjV5hC4awl78eKfJYlZ+8fM/UldLWJ/51iBQwIDAQAB",
+               "manifest_version": 2,
+               "name": "Google Docs",
+               "offline_enabled": true,
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "0.5"
+            },
+            "page_ordinal": "n",
+            "path": "aohghmighlieiainnegkcijnfilokake/0.5_0",
+            "state": 0,
+            "was_installed_by_default": true
+         },
+         "apdfllckaahabafndbhieahigkjlhalf": {
+            "ack_external": true,
+            "active_permissions": {
+               "api": [ "background", "clipboardRead", "clipboardWrite", "notifications", "unlimitedStorage" ]
+            },
+            "app_launcher_ordinal": "z",
+            "creation_flags": 137,
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "background", "clipboardRead", "clipboardWrite", "notifications", "unlimitedStorage" ]
+            },
+            "install_time": "13033253711205624",
+            "lastpingday": "13033209600521648",
+            "location": 1,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://drive.google.com/?usp=chrome_app"
+                  },
+                  "urls": [ "http://docs.google.com/", "http://drive.google.com/", "https://docs.google.com/", "https://drive.google.com/" ]
+               },
+               "background": {
+                  "allow_js_access": false
+               },
+               "current_locale": "en_US",
+               "default_locale": "en_US",
+               "description": "Google Drive: create, share and keep all your stuff in one place.",
+               "icons": {
+                  "128": "128.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIl5KlKwL2TSkntkpY3naLLz5jsN0YwjhZyObcTOK6Nda4Ie21KRqZau9lx5SHcLh7pE2/S9OiArb+na2dn7YK5EvH+aRXS1ec3uxVlBhqLdnleVgwgwlg5fH95I52IeHcoeK6pR4hW/Nv39GNlI/Uqk6O6GBCCsAxYrdxww9BiQIDAQAB",
+               "manifest_version": 2,
+               "name": "Google Drive",
+               "offline_enabled": true,
+               "options_page": "https://drive.google.com/settings",
+               "permissions": [ "background", "clipboardRead", "clipboardWrite", "notifications", "unlimitedStorage" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "6.3"
+            },
+            "page_ordinal": "n",
+            "path": "apdfllckaahabafndbhieahigkjlhalf/6.3_0",
+            "state": 1,
+            "was_installed_by_default": true
+         },
+         "blpcfgokakmgnkcojhhkbfbldkacnbeo": {
+            "ack_external": true,
+            "app_launcher_ordinal": "y",
+            "creation_flags": 153,
+            "from_bookmark": true,
+            "from_webstore": true,
+            "install_time": "13033253711713060",
+            "lastpingday": "13033209600521648",
+            "location": 1,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "container": "tab",
+                     "web_url": "http://www.youtube.com/?feature=ytca"
+                  },
+                  "web_content": {
+                     "enabled": true,
+                     "origin": "http://www.youtube.com"
+                  }
+               },
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "The world's most popular online video community.",
+               "icons": {
+                  "128": "128.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDC/HotmFlyuz5FaHaIbVBhhL4BwbcUtsfWwzgUMpZt5ZsLB2nW/Y5xwNkkPANYGdVsJkT2GPpRRIKBO5QiJ7jPMa3EZtcZHpkygBlQLSjMhdrAKevpKgIl6YTkwzNvExY6rzVDzeE9zqnIs33eppY4S5QcoALMxuSWlMKqgFQjHQIDAQAB",
+               "manifest_version": 2,
+               "name": "YouTube",
+               "permissions": [ "appNotifications" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "4.2.6"
+            },
+            "page_ordinal": "n",
+            "path": "blpcfgokakmgnkcojhhkbfbldkacnbeo/4.2.6_0",
+            "state": 1,
+            "was_installed_by_default": true
+         },
+         "cfhdojbkjhnklbpkdaibdccddilifddb": {
+            "active_permissions": {
+               "api": [ "contextMenus", "notifications", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "webRequestInternal" ],
+               "explicit_host": [ "http://*/*", "https://*/*" ],
+               "scriptable_host": [ "http://*/*", "https://*/*" ]
+            },
+            "creation_flags": 9,
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "contextMenus", "notifications", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "webRequestInternal" ],
+               "explicit_host": [ "http://*/*", "https://*/*" ],
+               "scriptable_host": [ "http://*/*", "https://*/*" ]
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13033254045134067",
+            "location": 1,
+            "manifest": {
+               "background": {
+                  "scripts": [ "ext/common.js", "ext/background.js", "lib/compat.js", "lib/info.js", "lib/io.js", "lib/adblockplus.js", "lib/punycode.js", "lib/publicSuffixList.js", "lib/basedomain.js", "lib/sha1.js", "lib/jsbn.js", "lib/rsa.js", "webrequest.js", "popupBlocker.js", "iconAnimation.js", "background.js" ]
+               },
+               "browser_action": {
+                  "default_icon": "icons/abp-19.png",
+                  "default_popup": "popup.html",
+                  "default_title": "Adblock Plus"
+               },
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "js": [ "ext/common.js", "ext/content.js", "include.preload.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_start"
+               }, {
+                  "all_frames": true,
+                  "js": [ "include.postload.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_end"
+               } ],
+               "current_locale": "en_US",
+               "default_locale": "en_US",
+               "description": "The free adblock tool for Chrome: Blocks annoying video ads on YouTube, Facebook ads, banners and much more.",
+               "icons": {
+                  "128": "icons/abp-128.png",
+                  "16": "icons/abp-16.png",
+                  "19": "icons/abp-19.png",
+                  "32": "icons/abp-32.png",
+                  "48": "icons/abp-48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxGWIIBRUVzQIXITqE6+js1FA24fsZC58G0fxcO1Duwfps+9gip5tedTziErKEpeAQVkgasdT4kk+b6Lw27yp3oysAj6zD9j+j4W+EMArTXqMIc6SMYD7Z8bPcwPb3tC1MUxMSpO6oOVpFE23UhKe91SYnrK92nHI2cmsor5elXQIDAQAB",
+               "manifest_version": 2,
+               "minimum_chrome_version": "18.0",
+               "name": "Adblock Plus",
+               "options_page": "options.html",
+               "permissions": [ "tabs", "http://*/*", "https://*/*", "contextMenus", "webRequest", "webRequestBlocking", "webNavigation", "unlimitedStorage", "notifications" ],
+               "update_url": "https://clients2.google.com/service/update2/crx",
+               "version": "1.7.2",
+               "web_accessible_resources": [ "block.html" ]
+            },
+            "path": "cfhdojbkjhnklbpkdaibdccddilifddb/1.7.2_0",
+            "state": 1,
+            "was_installed_by_default": false
+         },
+         "coobgpohoikkiipiblmjeljniedjpjpf": {
+            "ack_external": true,
+            "app_launcher_ordinal": "x",
+            "creation_flags": 153,
+            "from_bookmark": true,
+            "from_webstore": true,
+            "install_time": "13033253711393207",
+            "lastpingday": "13033209600521648",
+            "location": 1,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "http://www.google.com/webhp?source=search_app"
+                  },
+                  "urls": [ "*://www.google.com/search", "*://www.google.com/webhp", "*://www.google.com/imgres" ]
+               },
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "The fastest way to search the web.",
+               "icons": {
+                  "128": "128.png",
+                  "16": "16.png",
+                  "32": "32.png",
+                  "48": "48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDIiso3Loy5VJHL40shGhUl6it5ZG55XB9q/2EX6aa88jAxwPutbCgy5d9bm1YmBzLfSgpX4xcpgTU08ydWbd7b50fbkLsqWl1mRhxoqnN01kuNfv9Hbz9dWWYd+O4ZfD3L2XZs0wQqo0y6k64n+qeLkUMd1MIhf6MR8Xz1SOA8pwIDAQAB",
+               "manifest_version": 2,
+               "name": "Google Search",
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "0.0.0.20"
+            },
+            "page_ordinal": "n",
+            "path": "coobgpohoikkiipiblmjeljniedjpjpf/0.0.0.20_0",
+            "state": 1,
+            "was_installed_by_default": true
+         },
+         "eemcgdkfndhakfknompkggombfjjjeno": {
+            "active_permissions": {
+               "api": [ "bookmarks", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs" ],
+               "explicit_host": [ "chrome://favicon/*", "chrome://resources/*" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "initial_keybindings_set": true,
+            "install_time": "13033253709983131",
+            "location": 5,
+            "manifest": {
+               "chrome_url_overrides": {
+                  "bookmarks": "main.html"
+               },
+               "content_security_policy": "object-src 'none'; script-src chrome://resources 'self'",
+               "description": "Bookmark Manager",
+               "incognito": "split",
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQcByy+eN9jzazWF/DPn7NW47sW7lgmpk6eKc0BQM18q8hvEM3zNm2n7HkJv/R6fU+X5mtqkDuKvq5skF6qqUF4oEyaleWDFhd1xFwV7JV+/DU7bZ00w2+6gzqsabkerFpoP33ZRIw7OviJenP0c0uWqDWF8EGSyMhB3txqhOtiQIDAQAB",
+               "manifest_version": 2,
+               "name": "Bookmark Manager",
+               "permissions": [ "bookmarks", "bookmarkManagerPrivate", "metricsPrivate", "systemPrivate", "tabs", "chrome://favicon/", "chrome://resources/" ],
+               "version": "0.1"
+            },
+            "path": "/opt/google/chrome/resources/bookmark_manager",
+            "was_installed_by_default": false
+         },
+         "gcbommkclmclpchllfjekcdonpmejbdp": {
+            "active_permissions": {
+               "api": [ "cookies", "tabs", "webRequest", "webRequestBlocking", "webRequestInternal" ],
+               "explicit_host": [ "\u003Call_urls\u003E", "chrome://favicon/*" ]
+            },
+            "creation_flags": 9,
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "cookies", "tabs", "webRequest", "webRequestBlocking", "webRequestInternal" ],
+               "explicit_host": [ "\u003Call_urls\u003E", "chrome://favicon/*" ]
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13033254027287682",
+            "location": 1,
+            "manifest": {
+               "author": {
+                  "email": "eff.software.projects@gmail.com"
+               },
+               "background": {
+                  "scripts": [ "util.js", "URI.js", "rule_list.js", "rules.js", "background.js" ]
+               },
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "Encrypt the Web! Automatically use HTTPS security on many sites.",
+               "homepage_url": "https://www.eff.org/https-everywhere",
+               "icons": {
+                  "128": "icon128.png",
+                  "16": "icon16.png",
+                  "48": "icon48.png"
+               },
+               "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6MR8W/galdxnpGqBsYbqOzQb2eyW15YFjDDEMI0ZOzt8f504obNs920lDnpPD2/KqgsfjOgw2K7xWDJIj/18xUvWPk3LDkrnokNiRkA3KOx3W6fHycKL+zID7zy+xZYBuh2fLyQtWV1VGQ45iNRp9+Zo7rH86cdfgkdnWTlNSHyTLW9NbXvyv/E12bppPcEvgCTAQXgnDVJ0/sqmeiijn9tTFh03aM+R2V/21h8aTraAS24qiPCz6gkmYGC8yr6mglcnNoYbsLNYZ69zF1XHcXPduCPdPdfLlzVlKK1/U7hkA28eG3BIAMh6uJYBRJTpiGgaGdPd7YekUB8S6cy+CQIDAQAB",
+               "manifest_version": 2,
+               "minimum_chrome_version": "18",
+               "name": "HTTPS Everywhere",
+               "page_action": {
+                  "default_icon": "icon48.png",
+                  "default_popup": "popup.html",
+                  "default_title": "HTTPS Everywhere"
+               },
+               "permissions": [ "webRequest", "webRequestBlocking", "tabs", "cookies", "\u003Call_urls\u003E" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "2013.10.16"
+            },
+            "path": "gcbommkclmclpchllfjekcdonpmejbdp/2013.10.16_0",
+            "state": 1,
+            "was_installed_by_default": false
+         },
+         "gfdkimpbcpahaombhbimeihdjnejgicl": {
+            "active_permissions": {
+               "api": [ "app.currentWindowInternal", "app.runtime", "app.window", "feedbackPrivate" ],
+               "explicit_host": [ "chrome://resources/*" ]
+            },
+            "creation_flags": 1,
+            "events": [ "feedbackPrivate.onFeedbackRequested" ],
+            "from_bookmark": false,
+            "from_webstore": false,
+            "initial_keybindings_set": true,
+            "install_time": "13033253709991273",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "background": {
+                     "scripts": [ "js/event_handler.js" ]
+                  },
+                  "content_security_policy": "default-src 'none'; script-src 'self' chrome://resources; style-src 'unsafe-inline' *; img-src *; media-src 'self'"
+               },
+               "description": "User feedback extension",
+               "display_in_launcher": false,
+               "display_in_new_tab_page": false,
+               "icons": {
+                  "32": "images/icon32.png",
+                  "64": "images/icon64.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDMZElzFX2J1g1nRQ/8S3rg/1CjFyDltWOxQg+9M8aVgNVxbutEWFQz+oQzIP9BB67mJifULgiv12ToFKsae4NpEUR8sPZjiKDIHumc6pUdixOm8SJ5Rs16SMR6+VYxFUjlVW+5CA3IILptmNBxgpfyqoK0qRpBDIhGk1KDEZ4zqQIDAQAB",
+               "manifest_version": 2,
+               "name": "Feedback",
+               "permissions": [ "feedbackPrivate", "chrome://resources/" ],
+               "version": "1.0"
+            },
+            "path": "/opt/google/chrome/resources/feedback",
+            "running": false,
+            "was_installed_by_default": false
+         },
+         "jeoacafpbcihiomhlakheieifhpjdfeo": {
+            "active_permissions": {
+               "api": [ "contextMenus", "cookies", "history", "idle", "notifications", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "webRequestInternal" ],
+               "explicit_host": [ "chrome://favicon/*", "http://*/*", "https://*/*" ],
+               "scriptable_host": [ "http://*/*", "https://*/*" ]
+            },
+            "creation_flags": 9,
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "contextMenus", "cookies", "history", "idle", "notifications", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "webRequestInternal" ],
+               "explicit_host": [ "chrome://favicon/*", "http://*/*", "https://*/*" ],
+               "scriptable_host": [ "http://*/*", "https://*/*" ]
+            },
+            "initial_keybindings_set": true,
+            "install_time": "13033254071733649",
+            "location": 1,
+            "manifest": {
+               "background": {
+                  "scripts": [ "scripts/vendor/port/port.js", "scripts/vendor/jquery/jquery.js", "scripts/vendor/sitename/alttlds.js", "scripts/vendor/sitename/tldpatch.js", "scripts/vendor/sitename/sitename.js", "scripts/vendor/sjcl/sjcl.js", "scripts/services.js", "scripts/background.js" ]
+               },
+               "browser_action": {
+                  "default_title": "View and manage requests"
+               },
+               "content_scripts": [ {
+                  "all_frames": true,
+                  "css": [ "stylesheets/content.css" ],
+                  "js": [ "scripts/vendor/port/port.js", "scripts/vendor/jquery/jquery.js", "scripts/vendor/sitename/alttlds.js", "scripts/vendor/sitename/tldpatch.js", "scripts/vendor/sitename/sitename.js", "scripts/content.js" ],
+                  "matches": [ "http://*/*", "https://*/*" ],
+                  "run_at": "document_start"
+               } ],
+               "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+               "description": "Make the web faster, more private, and more secure.",
+               "icons": {
+                  "128": "images/128.png",
+                  "48": "images/48.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD7jr4SbXDEbGHJhx8A5p0M9icfVTGS2mPOe6F/Nam8nlcMP34Vg8hp1oEnmGwyWTRJi+jD1v8dT7hXA8WqL5Tt+gR2EPYpn8Hx7r0PqcxJcBZp0wW+LcvpY6D48wmK/Rc02bhO+UUUZpw8f/wLOdOVDG7mDkdivRuzIkdHx1HMMQIDAQAB",
+               "manifest_version": 2,
+               "name": "Disconnect",
+               "permissions": [ "chrome://favicon/", "contextMenus", "cookies", "history", "idle", "notifications", "tabs", "unlimitedStorage", "webNavigation", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*" ],
+               "update_url": "https://clients2.google.com/service/update2/crx",
+               "version": "5.11.0",
+               "web_accessible_resources": [ "scripts/vendor/jquery/jquery-2.0.3.min.map" ]
+            },
+            "path": "jeoacafpbcihiomhlakheieifhpjdfeo/5.11.0_0",
+            "state": 1,
+            "was_installed_by_default": false
+         },
+         "mfehgcgbbipciphmccgaenjidiccnmng": {
+            "active_permissions": {
+               "api": [ "cloudPrintPrivate" ]
+            },
+            "creation_flags": 1,
+            "from_bookmark": false,
+            "from_webstore": false,
+            "install_time": "13033253709987381",
+            "location": 5,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "web_url": "https://www.google.com/cloudprint"
+                  },
+                  "urls": [ "https://www.google.com/cloudprint/enable_chrome_connector" ]
+               },
+               "description": "Cloud Print",
+               "display_in_launcher": false,
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDqOhnwk4+HXVfGyaNsAQdU/js1Na56diW08oF1MhZiwzSnJsEaeuMN9od9q9N4ZdK3o1xXOSARrYdE+syV7Dl31nf6qz3A6K+D5NHe6sSB9yvYlIiN37jdWdrfxxE0pRYEVYZNTe3bzq3NkcYJlOdt1UPcpJB+isXpAGUKUvt7EQIDAQAB",
+               "name": "Cloud Print",
+               "permissions": [ "cloudPrintPrivate" ],
+               "version": "0.1"
+            },
+            "path": "/opt/google/chrome/resources/cloud_print",
+            "was_installed_by_default": false
+         },
+         "nmmhkkegccagdldgiimedpiccmgmieda": {
+            "ack_external": true,
+            "active_permissions": {
+               "api": [ "app.currentWindowInternal", "app.runtime", "app.window", "identity", "webRequestInternal", "webview" ],
+               "explicit_host": [ "https://checkout.google.com/*", "https://sandbox.google.com/*", "https://www.google.com/*", "https://www.googleapis.com/*" ]
+            },
+            "creation_flags": 9,
+            "events": [ "app.runtime.onLaunched" ],
+            "from_bookmark": false,
+            "from_webstore": true,
+            "initial_keybindings_set": true,
+            "install_time": "13033253710989146",
+            "lastpingday": "13033209600521648",
+            "location": 7,
+            "manifest": {
+               "app": {
+                  "background": {
+                     "scripts": [ "craw_background.js" ]
+                  }
+               },
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "Google Wallet for digital goods",
+               "display_in_launcher": false,
+               "display_in_new_tab_page": false,
+               "icons": {
+                  "128": "images/icon_128.png",
+                  "16": "images/icon_16.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrKfMnLqViEyokd1wk57FxJtW2XXpGXzIHBzv9vQI/01UsuP0IV5/lj0wx7zJ/xcibUgDeIxobvv9XD+zO1MdjMWuqJFcKuSS4Suqkje6u+pMrTSGOSHq1bmBVh0kpToN8YoJs/P/yrRd7FEtAXTaFTGxQL4C385MeXSjaQfiRiQIDAQAB",
+               "manifest_version": 2,
+               "minimum_chrome_version": "29",
+               "name": "Google Wallet",
+               "oauth2": {
+                  "auto_approve": true,
+                  "client_id": "203784468217.apps.googleusercontent.com",
+                  "scopes": [ "https://www.googleapis.com/auth/sierra", "https://www.googleapis.com/auth/sierrasandbox", "https://www.googleapis.com/auth/chromewebstore", "https://www.googleapis.com/auth/chromewebstore.readonly" ]
+               },
+               "permissions": [ "identity", "webview", "https://checkout.google.com/", "https://sandbox.google.com/checkout/", "https://www.google.com/", "https://www.googleapis.com/*" ],
+               "update_url": "https://clients2.google.com/service/update2/crx",
+               "version": "0.0.6.0"
+            },
+            "path": "nmmhkkegccagdldgiimedpiccmgmieda/0.0.6.0_0",
+            "running": false,
+            "state": 1,
+            "was_installed_by_default": false
+         },
+         "pjkljhegncpnkpknbcohdijeoejaedia": {
+            "ack_external": true,
+            "active_permissions": {
+               "api": [ "notifications" ]
+            },
+            "app_launcher_ordinal": "yn",
+            "creation_flags": 137,
+            "from_bookmark": false,
+            "from_webstore": true,
+            "granted_permissions": {
+               "api": [ "notifications" ]
+            },
+            "install_time": "13033253711570953",
+            "lastpingday": "13033209600521648",
+            "location": 1,
+            "manifest": {
+               "app": {
+                  "launch": {
+                     "container": "tab",
+                     "web_url": "https://mail.google.com/mail/ca"
+                  },
+                  "urls": [ "*://mail.google.com/mail/ca" ]
+               },
+               "current_locale": "en_US",
+               "default_locale": "en",
+               "description": "Fast, searchable email with less spam.",
+               "icons": {
+                  "128": "128.png"
+               },
+               "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCuGglK43iAz3J9BEYK/Mz6ZhloIMMDqQSAaf3vJt4eHbTbSDsu4WdQ9dQDRcKlg8nwQdePBt0C3PSUBtiSNSS37Z3qEGfS7LCju3h6pI1Yr9MQtxw+jUa7kXXIS09VV73pEFUT/F7c6Qe8L5ZxgAcBvXBh1Fie63qb02I9XQ/CQIDAQAB",
+               "name": "Gmail",
+               "options_page": "https://mail.google.com/mail/ca/#settings",
+               "permissions": [ "notifications" ],
+               "update_url": "http://clients2.google.com/service/update2/crx",
+               "version": "7"
+            },
+            "page_ordinal": "n",
+            "path": "pjkljhegncpnkpknbcohdijeoejaedia/7_1",
+            "state": 1,
+            "was_installed_by_default": true
+         }
+      },
+      "theme": {
+         "use_system": true
+      },
+      "toolbar": [ "cfhdojbkjhnklbpkdaibdccddilifddb", "jeoacafpbcihiomhlakheieifhpjdfeo" ],
+      "toolbarsize": -1
+   },
+   "google": {
+      "services": {
+         "signin": {
+            "LSID": "",
+            "SID": ""
+         }
+      }
+   },
+   "intl": {
+      "accept_languages": "en-US,en"
+   },
+   "invalidator": {
+      "client_id": "dYrgUwGBN6zoWnBxs5ArPQ=="
+   },
+   "net": {
+      "http_server_properties": {
+         "servers": {
+            "2542116.fls.doubleclick.net:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "accounts.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "accounts.youtube.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "apis.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 73,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "chrome.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100
+               },
+               "supports_spdy": true
+            },
+            "clients1.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "clients2.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "clients2.googleusercontent.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 48,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "developer.android.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "fls.doubleclick.net:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100
+               },
+               "supports_spdy": true
+            },
+            "fonts.googleapis.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "googleads.g.doubleclick.net:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100
+               },
+               "supports_spdy": true
+            },
+            "i.ytimg.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100
+               },
+               "supports_spdy": true
+            },
+            "i1.ytimg.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "lh3.googleusercontent.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "lh4.googleusercontent.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "lh5.googleusercontent.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "lh6.googleusercontent.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100
+               },
+               "supports_spdy": true
+            },
+            "oauth.googleusercontent.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "s.ytimg.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "ssl.google-analytics.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "ssl.gstatic.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "themes.googleusercontent.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 32,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "tools.google.com:80": {
+               "alternate_protocol": {
+                  "port": 80,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            },
+            "www.google.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100,
+                  "5": 45,
+                  "6": 0
+               },
+               "supports_spdy": true
+            },
+            "www.googleadservices.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "settings": {
+                  "4": 100
+               },
+               "supports_spdy": true
+            },
+            "www.youtube.com:443": {
+               "alternate_protocol": {
+                  "port": 443,
+                  "protocol_str": "quic"
+               },
+               "supports_spdy": false
+            }
+         },
+         "version": 2
+      }
+   },
+   "ntp": {
+      "app_page_names": [ "Apps" ]
+   },
+   "plugins": {
+      "removed_old_component_pepper_flash_settings": true
+   },
+   "profile": {
+      "avatar_index": 0,
+      "block_third_party_cookies": true,
+      "content_settings": {
+         "clear_on_exit_migrated": true,
+         "pattern_pairs": {
+            "*,*": {
+               "per_plugin": {
+                  "google-talk": 1
+               }
+            }
+         },
+         "pref_version": 1,
+         "whitelist_version": 1
+      },
+      "created_by_version": "31.0.1650.63",
+      "default_content_settings": {
+         "plugins": 3,
+         "ppapi-broker": 2
+      },
+      "exit_type": "Normal",
+      "exited_cleanly": true,
+      "local_profile_id": 14788161,
+      "managed_user_id": "",
+      "name": "First user",
+      "password_manager_enabled": false
+   },
+   "session": {
+      "restore_on_startup_migrated": true
+   },
+   "sync_promo": {
+      "startup_count": 1,
+      "user_skipped": true
+   },
+   "translate_blocked_languages": [ "en" ]
+}

@@ -1,0 +1,11 @@
+{
+   "8/RrMmQlCD2Gsp14wUCE1P8r7B2C5+yE0+g79IPyRsc=": {
+      "created": 1388780113.25213,
+      "dynamic_spki_hashes_expiry": 0.0,
+      "expiry": 1391372113.25213,
+      "mode": "force-https",
+      "pkp_include_subdomains": false,
+      "static_spki_hashes": [  ],
+      "sts_include_subdomains": true
+   }
+}

@@ -13,12 +13,18 @@ sudo apt-get install -y enigmail pidgin pidgin-otr keepassx network-manager-open
 echo "[] Turn on your filewall, close the window"
 sudo gufw
 
-echo "[] Installing Chrome"
+echo "[] Installing Google Chrome"
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 rm google-chrome-stable_current_amd64.deb
 
-echo "[] TODO: Adding hardened browser profiles"
+echo "[] Adding hardened browser profiles"
+mv ~/.config/google-chrome ~/.config/google-chrome.orig > /dev/null 2>&1
+mkdir -p .config
+cp -r browser_profiles/google-chrome ~/.config
+mv ~/.mozilla/firefox ~/.mozilla/firefox.orig > /dev/null 2>&1
+mkdir -p .mozilla
+cp -r browser_profiles/firefox ~/.mozilla
 
 echo "[] Configuring AppArmor"
 sudo aa-enforce /etc/apparmor.d/usr.bin.firefox
@@ -53,5 +59,8 @@ echo "[] Running Tor Browser Launcher for the first time"
 torbrowser-launcher > /dev/null 2>&1 &
 
 echo "[] TODO: Add custom AppArmor profiles for Chrome, Thunderbird, Pidgin, LibreOffice, Jitsi, Skype, VLC"
+
+echo "[] Update the Cinnamon panel (for Linux Mint)"
+gsettings set org.cinnamon panel-launchers "['google-chrome.desktop', 'thunderbird.desktop', 'pidgin.desktop', 'gnome-terminal.desktop', 'torbrowser.desktop', 'keepassx.desktop', 'nemo.desktop']"
 
 cd $PWD

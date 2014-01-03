@@ -1,0 +1,230 @@
+{
+   "add": {
+      "message": "Lisa"
+   },
+   "add_domain_button": {
+      "message": "Lisa domeen"
+   },
+   "add_filter_button": {
+      "message": "Lisa filter"
+   },
+   "add_filters_msg": {
+      "message": "Lisada filter(id)?"
+   },
+   "add_your_own_filters": {
+      "message": "Lisa oma filtreid"
+   },
+   "apply_changes": {
+      "message": "Rakenda muudatused"
+   },
+   "block_element": {
+      "message": "Blokeeri Element"
+   },
+   "cancel": {
+      "message": "Loobu"
+   },
+   "clickhide_instructions": {
+      "message": "P\u00E4rast sulgemist h\u00FCpikaken, kl\u00F5psake (v\u00F5i paremkl\u00F5ps) element lehel."
+   },
+   "description_chrome": {
+      "message": "Tasuta adblock vahend Chrome: Ploki t\u00FC\u00FCtu video YouTube'is reklaame Facebook reklaame, plakatid ja palju muud."
+   },
+   "description_opera": {
+      "message": "Tasuta adblock vahend Opera: Ploki t\u00FC\u00FCtu video YouTube'is reklaame Facebook reklaame, plakatid ja palju muud."
+   },
+   "description_safari": {
+      "message": "Tasuta adblock vahend Safari: Ploki t\u00FC\u00FCtu video YouTube'is reklaame Facebook reklaame, plakatid ja palju muud."
+   },
+   "disable_inline": {
+      "message": "Keela inline tekst reklaame"
+   },
+   "disabled_for_site": {
+      "message": "\u003Cstrong\u003EPuuetega\u003C/strong\u003E sellel saidil"
+   },
+   "disabled_for_these_domains": {
+      "message": "AdBlock Plus on keelatud valdkondades, valesti on loetletud allpool. Saate lisada domeeni kas vahendusel AdBlock Plus aadressiribal ikooni V\u00D5I kirjutades domeeni (Mitte URL) lahtrisse JA kl\u00F5psa \"Lisa domeen\" Nuppu."
+   },
+   "easy_create_filter": {
+      "message": "Block element"
+   },
+   "edit_filters_raw": {
+      "message": "Edit filtrid tekstigfail"
+   },
+   "enable_only_the": {
+      "message": "Luba ainult filter nimekirjad, mida vajate. Liiga palju on v\u00F5imalik teha brauseris reageeri."
+   },
+   "enabled_for_site": {
+      "message": "\u003Cstrong\u003El\u00FClitatud\u003C/strong\u003E sellel saidil"
+   },
+   "filter_lists": {
+      "message": "Flitrite nimekirjad"
+   },
+   "filter_must_follow_syntax": {
+      "message": "Teie filter peab j\u00E4rgima \u003Ca\u003EAdBlock Plus filter s\u00FCntaks\u003C/a\u003E."
+   },
+   "filters_acceptableAds2_label": {
+      "message": "Luba m\u00F5ned mittepealet\u00FCkkivad reklaamid"
+   },
+   "filters_addSubscriptionAdd_label": {
+      "message": "Lisa"
+   },
+   "filters_addSubscriptionOther_label": {
+      "message": "Lisa muu tellimus"
+   },
+   "filters_addSubscription_label": {
+      "message": "Lisa filtrite tellimus"
+   },
+   "filters_readMore_label": {
+      "message": "Loe lisaks"
+   },
+   "filters_subscription_delete_label": {
+      "message": "Kustuta"
+   },
+   "filters_subscription_enabled_label": {
+      "message": "Lubatud"
+   },
+   "filters_subscription_lastDownload_checksumMismatch": {
+      "message": "Nurjus, kontrollsumma ei klapi"
+   },
+   "filters_subscription_lastDownload_connectionError": {
+      "message": "Nurjus, allalaadimise viga"
+   },
+   "filters_subscription_lastDownload_inProgress": {
+      "message": "Laen alla..."
+   },
+   "filters_subscription_lastDownload_invalidData": {
+      "message": "Nurjus, vale filtrite nimekiri"
+   },
+   "filters_subscription_lastDownload_invalidURL": {
+      "message": "Nurjus, vale aadress"
+   },
+   "filters_viewList_label": {
+      "message": "Vaata loetelu"
+   },
+   "firstRun_title": {
+      "message": "Adblock Plus on paigaldatud"
+   },
+   "found_a_bug": {
+      "message": "Leidsid vea? Tahad t\u00F5lkida Adblock Plus'i enda keelde? Palun saada soovitus \u003Ca\u003Esiia\u003C/a\u003E."
+   },
+   "general": {
+      "message": "\u00DCldine"
+   },
+   "global_remove_subscription_warning": {
+      "message": "Kas oled kindel, et soovid selle tellimuse eemaldata?"
+   },
+   "global_subscription_invalid_location": {
+      "message": "Filtrite nimekirja asukoht on kas vigane URL v\u00F5i failinimi."
+   },
+   "last_updated_at": {
+      "message": "Viimati uuendatud: $aeg$ on $date$",
+      "placeholders": {
+         "date": {
+            "content": "$2"
+         },
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "last_updated_at_today": {
+      "message": "Viimati uuendatud t\u00E4na kell $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1"
+         }
+      }
+   },
+   "name": {
+      "message": "Adblock Plus"
+   },
+   "options": {
+      "message": "AdBlock Plus Valikud"
+   },
+   "options_short": {
+      "message": "valik"
+   },
+   "out_of_date_lists": {
+      "message": "Out-of-date nimekirjad uuendatakse perioodiliselt."
+   },
+   "overlay_hideplaceholders_label": {
+      "message": "Peida blokeeritud elementide kohat\u00E4itjad"
+   },
+   "remove_button": {
+      "message": "Eemalda valitud"
+   },
+   "show_block_element_menu": {
+      "message": "N\u00E4ita \"Block Element\" paremkl\u00F5psake men\u00FC\u00FC kirje"
+   },
+   "show_icon": {
+      "message": "N\u00E4ita ikooni aadressiribal"
+   },
+   "stats_label_page": {
+      "message": "\u003Cstrong\u003E$arv$\u003C/strong\u003E Sellel lehel",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_label_total": {
+      "message": "\u003Cstrong\u003E$arv$\u003C/strong\u003E kokku",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_over": {
+      "message": "\u00FCle $ arv $",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_share_download": {
+      "message": "Lae AdBlock Plus"
+   },
+   "stats_share_label_fb": {
+      "message": "Jaga Facebookis"
+   },
+   "stats_share_label_gplus": {
+      "message": "Jagada Google+"
+   },
+   "stats_share_label_twitter": {
+      "message": "Jaga Twitteris"
+   },
+   "stats_share_message": {
+      "message": "Ma blokeeritud $number,$ reklaamid ja j\u00E4lgimisseadmed t\u00E4nu Adblock Plus.",
+      "placeholders": {
+         "number": {
+            "content": "$1"
+         }
+      }
+   },
+   "stats_share_title": {
+      "message": "Jagada need numbrid"
+   },
+   "stats_show_iconnumber": {
+      "message": "N\u00E4ita numbrit ikooni"
+   },
+   "stats_title": {
+      "message": "Reklaamid on blokeeritud"
+   },
+   "subscriptionSelection_location_label": {
+      "message": "Filtrite nimekirja asukoht:"
+   },
+   "subscriptionSelection_subscriptionSelector_label": {
+      "message": "Vali nimekirjast sobiv filtrite tellimus:"
+   },
+   "subscriptionSelection_title_label": {
+      "message": "Tellimuse pealkiri:"
+   },
+   "update_now": {
+      "message": "V\u00E4rskenda kohe"
+   },
+   "whitelisted_domains": {
+      "message": "Whitelisted domeenid"
+   }
+}
