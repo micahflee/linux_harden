@@ -30,7 +30,11 @@ sudo add-apt-repository ppa:micahflee/ppa
 sudo apt-get update
 sudo apt-get install -y torbrowser-launcher
 
-echo "[] TODO: Turning on Tor Browser AppArmor profile"
+echo "[] Turning on Tor Browser AppArmor profile"
+sudo aa-enforce /etc/apparmor.d/usr.bin.torbrowser-launcher
+sudo aa-enforce /etc/apparmor.d/torbrowser.start-tor-browser
+sudo aa-enforce /etc/apparmor.d/torbrowser.Browser.firefox
+sudo aa-enforce /etc/apparmor.d/torbrowser.Tor.tor
 
 echo "[] Running Tor Browser Launcher for the first time"
 torbrowser-launcher > /dev/null 2>&1 &
