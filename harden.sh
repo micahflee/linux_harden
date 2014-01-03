@@ -24,9 +24,22 @@ echo "[] Configuring AppArmor"
 sudo aa-enforce /etc/apparmor.d/usr.bin.firefox
 sudo aa-enforce /etc/apparmor.d/usr.sbin.rsyslogd
 sudo aa-enforce /etc/apparmor.d/system_tor
+sudo aa-enforce /etc/apparmor.d/bin.ping
+sudo aa-enforce /etc/apparmor.d/sbin.klogd
+sudo aa-enforce /etc/apparmor.d/sbin.syslog-ng
+sudo aa-enforce /etc/apparmor.d/sbin.syslogd
+sudo aa-enforce /etc/apparmor.d/usr.bin.chromium-browser
+sudo aa-enforce /etc/apparmor.d/usr.sbin.avahi-daemon
+sudo aa-enforce /etc/apparmor.d/usr.sbin.dnsmasq
+sudo aa-enforce /etc/apparmor.d/usr.sbin.identd
+sudo aa-enforce /etc/apparmor.d/usr.sbin.mdnsd
+sudo aa-enforce /etc/apparmor.d/usr.sbin.nmbd
+sudo aa-enforce /etc/apparmor.d/usr.sbin.nscd
+sudo aa-enforce /etc/apparmor.d/usr.sbin.smbd
+sudo aa-enforce /etc/apparmor.d/usr.sbin.traceroute
 
 echo "[] Installing Tor Browser Launcher"
-sudo add-apt-repository ppa:micahflee/ppa
+sudo add-apt-repository -y ppa:micahflee/ppa
 sudo apt-get update
 sudo apt-get install -y torbrowser-launcher
 
