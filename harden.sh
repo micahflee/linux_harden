@@ -26,7 +26,12 @@ mv ~/.mozilla/firefox ~/.mozilla/firefox.orig > /dev/null 2>&1
 mkdir -p .mozilla
 cp -r browser_profiles/firefox ~/.mozilla
 
-echo "[] Configuring AppArmor"
+echo "[] Installing Tor Browser Launcher"
+sudo add-apt-repository -y ppa:micahflee/ppa
+sudo apt-get update
+sudo apt-get install -y torbrowser-launcher
+
+echo "[] Enforcing built-in AppArmor profiles"
 sudo aa-enforce /etc/apparmor.d/usr.bin.firefox
 sudo aa-enforce /etc/apparmor.d/usr.sbin.rsyslogd
 sudo aa-enforce /etc/apparmor.d/system_tor
@@ -44,10 +49,11 @@ sudo aa-enforce /etc/apparmor.d/usr.sbin.nscd
 sudo aa-enforce /etc/apparmor.d/usr.sbin.smbd
 sudo aa-enforce /etc/apparmor.d/usr.sbin.traceroute
 
-echo "[] Installing Tor Browser Launcher"
-sudo add-apt-repository -y ppa:micahflee/ppa
-sudo apt-get update
-sudo apt-get install -y torbrowser-launcher
+echo "[] Adding custom AppArmor profiles"
+sudo cp apparmor_profiles/usr.bin.pidgin /etc/apparmor.d/
+sudo aa-enforce /etc/apparmor.d/usr.bin.pidgin
+
+echo "[] TODO: Make custom AppArmor profiles for Chrome, Thunderbird, LibreOffice, Jitsi, Skype, VLC"
 
 echo "[] Turning on Tor Browser AppArmor profile"
 sudo aa-enforce /etc/apparmor.d/usr.bin.torbrowser-launcher
@@ -57,8 +63,6 @@ sudo aa-enforce /etc/apparmor.d/torbrowser.Tor.tor
 
 echo "[] Running Tor Browser Launcher for the first time"
 torbrowser-launcher > /dev/null 2>&1 &
-
-echo "[] TODO: Add custom AppArmor profiles for Chrome, Thunderbird, Pidgin, LibreOffice, Jitsi, Skype, VLC"
 
 echo "[] Update the Cinnamon panel (for Linux Mint)"
 gsettings set org.cinnamon panel-launchers "['google-chrome.desktop', 'thunderbird.desktop', 'pidgin.desktop', 'gnome-terminal.desktop', 'torbrowser.desktop', 'keepassx.desktop', 'nemo.desktop']"

@@ -1,0 +1,59 @@
+#include <tunables/global>
+/usr/local/bin/pidgin {
+  #include <abstractions/audio>
+  #include <abstractions/aspell>
+  #include <abstractions/base>
+  #include <abstractions/bash>
+  #include <abstractions/consoles>
+  #include <abstractions/dbus>
+  #include <abstractions/fonts>
+  #include <abstractions/freedesktop.org>
+  #include <abstractions/gnome>
+  #include <abstractions/nameservice>
+  #include <abstractions/launchpad-integration>
+  #include <abstractions/user-download>
+  #include <abstractions/user-tmp>
+  #include <abstractions/X>
+  capability sys_ptrace,
+  deny @{HOME}/.bash* rw,
+  deny @{HOME}/.cshrc rw,
+  deny @{HOME}/.profile rw,
+  deny @{HOME}/.ssh/* rw,
+  deny @{HOME}/.zshrc rw,
+  owner @{HOME}/.config/enchant/ rw,
+  owner @{HOME}/.config/enchant/* rwk,
+  owner @{HOME}/.local/share/icons/ r,
+  owner @{HOME}/.local/share/mime/* r,
+  owner @{HOME}/.gnome2/nautilus-sendto/** rw,
+  owner @{HOME}/.gstreamer*/ rw,
+  owner @{HOME}/.gstreamer*/** rw,
+  owner @{HOME}/.pulse/ rw,
+  owner @{HOME}/.pulse/** rw,
+  owner @{HOME}/.pulse-cookie rwk,
+  owner @{HOME}/.purple/ rw,
+  owner @{HOME}/.purple/** rwk,
+  /dev/shm/ r,
+  /dev/shm/* rw,
+  /etc/pulse/client.conf r,
+  /etc/ssl/certs/ r,
+  /etc/ssl/certs/ssl-cert-snakeoil.pem r,
+  owner /tmp/orbit-*/* w,
+  owner /tmp/pulse-*/* w,
+  /usr/bin/gconftool-2 rix,
+  /usr/bin/gnome-default-applications-properties ix,
+  /usr/bin/gnome-network-preferences ix,
+  /usr/bin/pidgin r,
+  /usr/bin/xdg-open rmix,
+  /usr/lib/libvisual-*/**.so rm,
+  /usr/lib/pidgin/*.so rm,
+  /usr/lib/purple*/*.so rm,
+  /usr/share/ca-certificates/*/** r,
+  /usr/share/enchant/enchant.ordering r,
+  /usr/share/locale-langpack/** rm,
+  /usr/share/purple/ca-certs/ r,
+  /usr/share/purple/ca-certs/** r,
+  /usr/share/tcltk/** r,
+  /usr/share/themes/* r,
+  /usr/share/hunspell/* r,
+  /usr/share/glib-2.0/schemas/gschemas.compiled r,
+}
