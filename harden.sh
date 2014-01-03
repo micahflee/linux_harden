@@ -1,6 +1,9 @@
 #!/bin/bash
 
 PWD=`pwd`
+BROWSER_PROFILES=$PWD/browser_profiles
+APPARMOR_PROFILES=$PWD/apparmor_profiles
+
 cd /tmp
 
 echo "[] Updating software on the system"
@@ -20,11 +23,11 @@ rm google-chrome-stable_current_amd64.deb
 
 echo "[] Adding hardened browser profiles"
 mv ~/.config/google-chrome ~/.config/google-chrome.orig > /dev/null 2>&1
-mkdir -p .config
-cp -r browser_profiles/google-chrome ~/.config
+mkdir -p ~/.config
+cp -r $BROWSER_PROFILES/google-chrome ~/.config
 mv ~/.mozilla/firefox ~/.mozilla/firefox.orig > /dev/null 2>&1
-mkdir -p .mozilla
-cp -r browser_profiles/firefox ~/.mozilla
+mkdir -p ~/.mozilla
+cp -r $BROWSER_PROFILES/firefox ~/.mozilla
 
 echo "[] Installing Tor Browser Launcher"
 sudo add-apt-repository -y ppa:micahflee/ppa
@@ -50,7 +53,7 @@ sudo aa-enforce /etc/apparmor.d/usr.sbin.smbd
 sudo aa-enforce /etc/apparmor.d/usr.sbin.traceroute
 
 echo "[] Adding custom AppArmor profiles"
-sudo cp apparmor_profiles/usr.bin.pidgin /etc/apparmor.d/
+sudo cp $APPARMOR_PROFILES/usr.bin.pidgin /etc/apparmor.d/
 sudo aa-enforce /etc/apparmor.d/usr.bin.pidgin
 
 echo "[] TODO: Make custom AppArmor profiles for Chrome, Thunderbird, LibreOffice, Jitsi, Skype, VLC"
