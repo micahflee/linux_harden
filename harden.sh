@@ -52,11 +52,12 @@ sudo aa-enforce /etc/apparmor.d/usr.sbin.nscd
 sudo aa-enforce /etc/apparmor.d/usr.sbin.smbd
 sudo aa-enforce /etc/apparmor.d/usr.sbin.traceroute
 
-echo "[] Adding custom AppArmor profiles"
-sudo cp $APPARMOR_PROFILES/usr.bin.pidgin /etc/apparmor.d/
+echo "[] Adding and enforcing custom AppArmor profiles"
+sudo cp $APPARMOR_PROFILES/* /etc/apparmor.d/
 sudo aa-enforce /etc/apparmor.d/usr.bin.pidgin
+sudo aa-enforce /etc/apparmor.d/usr.lib.thunderbird.thunderbird
 
-echo "[] TODO: Make custom AppArmor profiles for Chrome, Thunderbird, LibreOffice, Jitsi, Skype, VLC"
+echo "[] TODO: Make custom AppArmor profiles for Chrome, LibreOffice, Jitsi, Skype, VLC"
 
 echo "[] Turning on Tor Browser AppArmor profile"
 sudo aa-enforce /etc/apparmor.d/usr.bin.torbrowser-launcher
