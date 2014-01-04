@@ -11,7 +11,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade -y
 
 echo "[] Installing useful software"
-sudo apt-get install -y enigmail pidgin pidgin-otr keepassx network-manager-openvpn vim git gufw tor apparmor apparmor-utils apparmor-profiles libcurl3
+sudo apt-get install -y thunderbird enigmail pidgin pidgin-otr keepassx network-manager-openvpn vim git gufw tor apparmor apparmor-utils apparmor-profiles libcurl3
 
 echo "[] Turn on your filewall, close the window"
 sudo gufw
