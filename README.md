@@ -9,6 +9,7 @@ A script to run that hardens a newly set up desktop Linux computer. This script 
 * Installs [Tor Browser Launcher](https://github.com/micahflee/torbrowser-launcher)
 * Installs Google Chrome (convinced by @headhntr)
 * Replaces Chrome and Firefox browser profiles with ones with better defaults and privacy and security extensions installed (HTTPS Everywhere, Adblock Plus, Disconnect)
+* Installs and turns on a firewall that blocks all incoming network connections
 * Turns on default AppArmor profiles
 * Adds custom AppArmor profiles for: Pidgin, Thunderbird
 
