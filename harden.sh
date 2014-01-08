@@ -55,7 +55,8 @@ sudo aa-enforce /etc/apparmor.d/usr.sbin.traceroute
 echo "[] Adding and enforcing custom AppArmor profiles"
 sudo cp $APPARMOR_PROFILES/* /etc/apparmor.d/
 sudo aa-enforce /etc/apparmor.d/usr.bin.pidgin
-sudo aa-enforce /etc/apparmor.d/usr.lib.thunderbird.thunderbird
+# thunderbird profile needs more work
+sudo aa-disable /etc/apparmor.d/usr.lib.thunderbird.thunderbird
 
 echo "[] TODO: Make custom AppArmor profiles for Chrome, LibreOffice, Jitsi, Skype, VLC"
 
