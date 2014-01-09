@@ -1,8 +1,8 @@
 #!/bin/bash
 
-PWD=`pwd`
-BROWSER_PROFILES=$PWD/browser_profiles
-APPARMOR_PROFILES=$PWD/apparmor_profiles
+DIR=`pwd`
+BROWSER_PROFILES=$DIR/browser_profiles
+APPARMOR_PROFILES=$DIR/apparmor_profiles
 
 cd /tmp
 
@@ -70,17 +70,17 @@ echo "[] Running Tor Browser Launcher for the first time"
 torbrowser-launcher > /dev/null 2>&1 &
 
 echo "[] Installing TrueCrypt"
-TRUECRYPT_FILE=truecrypt-7.1a-linux-x64
-TRUECRYPT_TARBALL=${TRUECRYPT_FILE}.tar.gz
-TRUECRYPT_SIG=${TRUECRYPT_FILE}.tar.gz.sig
-gpg --import $PWD/truecrypt.asc
+TRUECRYPT_TARBALL=truecrypt-7.1a-linux-x64.tar.gz
+TRUECRYPT_SIG=truecrypt-7.1a-linux-x64.tar.gz.sig
+TRUECRYPT_SETUP=truecrypt-7.1a-setup-x64
+gpg --import $CURDIR/truecrypt.asc
 wget https://www.truecrypt.org/download/$TRUECRYPT_SIG
-wget http://www.truecrypt.org/download/$TRUECRYPT_TARBALL
+wget https://www.truecrypt.org/download/$TRUECRYPT_TARBALL
 if gpg --verify $TRUECRYPT_SIG
 then
     tar -xf $TRUECRYPT_TARBALL
     echo "[] Starting TrueCrypt installer: choose option 1 and follow instructions"
-    ./$TRUECRYPT_FILE
+    /tmp/$TRUECRYPT_SETUP
 else
     echo echo "[] WARNING: TrueCrypt signature verification failed, skipping installation"
 fi
@@ -88,4 +88,4 @@ fi
 echo "[] Update the Cinnamon panel (for Linux Mint)"
 gsettings set org.cinnamon panel-launchers "['google-chrome.desktop', 'thunderbird.desktop', 'pidgin.desktop', 'gnome-terminal.desktop', 'torbrowser.desktop', 'keepassx.desktop', 'nemo.desktop']"
 
-cd $PWD
+cd $DIR
