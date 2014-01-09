@@ -73,7 +73,7 @@ echo "[] Installing TrueCrypt"
 TRUECRYPT_TARBALL=truecrypt-7.1a-linux-x64.tar.gz
 TRUECRYPT_SIG=truecrypt-7.1a-linux-x64.tar.gz.sig
 TRUECRYPT_SETUP=truecrypt-7.1a-setup-x64
-gpg --import $CURDIR/truecrypt.asc
+gpg --import $DIR/truecrypt.asc
 wget https://www.truecrypt.org/download/$TRUECRYPT_SIG
 wget https://www.truecrypt.org/download/$TRUECRYPT_TARBALL
 if gpg --verify $TRUECRYPT_SIG
