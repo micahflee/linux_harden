@@ -12,8 +12,8 @@ A script to run that hardens a newly set up desktop Linux computer. This script 
 * Installs and turns on a firewall that blocks all incoming network connections
 * Turns on default AppArmor profiles
 * Adds custom AppArmor profiles for: Pidgin, Thunderbird
+* Installs TrueCrypt securely
 
 ## To Do
 
 * Write AppArmor profiles for Chrome, Pidgin, LibreOffice, Jitsi, Skype, VLC
-

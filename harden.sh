@@ -69,6 +69,22 @@ sudo aa-enforce /etc/apparmor.d/torbrowser.Tor.tor
 echo "[] Running Tor Browser Launcher for the first time"
 torbrowser-launcher > /dev/null 2>&1 &
 
+echo "[] Installing TrueCrypt"
+TRUECRYPT_FILE=truecrypt-7.1a-linux-x64
+TRUECRYPT_TARBALL=${TRUECRYPT_FILE}.tar.gz
+TRUECRYPT_SIG=${TRUECRYPT_FILE}.tar.gz.sig
+gpg --import $PWD/truecrypt.asc
+wget https://www.truecrypt.org/download/$TRUECRYPT_SIG
+wget http://www.truecrypt.org/download/$TRUECRYPT_TARBALL
+if gpg --verify $TRUECRYPT_SIG
+then
+    tar -xf $TRUECRYPT_TARBALL
+    echo "[] Starting TrueCrypt installer: choose option 1 and follow instructions"
+    ./$TRUECRYPT_FILE
+else
+    echo echo "[] WARNING: TrueCrypt signature verification failed, skipping installation"
+fi
+
 echo "[] Update the Cinnamon panel (for Linux Mint)"
 gsettings set org.cinnamon panel-launchers "['google-chrome.desktop', 'thunderbird.desktop', 'pidgin.desktop', 'gnome-terminal.desktop', 'torbrowser.desktop', 'keepassx.desktop', 'nemo.desktop']"
 
