@@ -85,6 +85,11 @@ else
     echo echo "[] WARNING: TrueCrypt signature verification failed, skipping installation"
 fi
 
+echo "[] Installing Jitsi"
+wget https://download.jitsi.org/jitsi/debian/jitsi_2.4-latest_amd64.deb
+sudo dpkg -i jitsi_2.4-latest_amd64.deb
+sudo apt-get install -f
+
 echo "[] Update the Cinnamon panel (for Linux Mint)"
 gsettings set org.cinnamon panel-launchers "['google-chrome.desktop', 'thunderbird.desktop', 'pidgin.desktop', 'gnome-terminal.desktop', 'torbrowser.desktop', 'keepassx.desktop', 'nemo.desktop']"
 
