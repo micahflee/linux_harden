@@ -86,8 +86,8 @@ else
 fi
 
 echo "[] Installing Jitsi"
-wget https://download.jitsi.org/jitsi/debian/jitsi_2.4-latest_amd64.deb
-sudo dpkg -i jitsi_2.4-latest_amd64.deb
+wget https://download.jitsi.org/jitsi/debian/jitsi_2.5-latest_amd64.deb
+sudo dpkg -i jitsi_2.5-latest_amd64.deb
 sudo apt-get install -f
 
 echo "[] Update the Cinnamon panel (for Linux Mint)"
